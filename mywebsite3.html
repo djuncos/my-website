@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+  <link rel="stylesheet" type="text/css" href="css/mywebsite.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Waiting+for+the+Sunrise" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Tamma" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+
+</head>
+
+<body>
+
+  <div class='container'>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="mywebsite1.html">Daniel Juncos</a>
+          </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li>
+                  <a href="mywebsite2.html">Interests  
+                    <span class="sr-only">(current)   
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="mywebsite3.html">Brainteasers!
+                  </a>
+                </li>
+                <!-- <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown 
+                      <span class="caret">
+                      </span>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li> -->
+              </ul>
+              <!-- <form class="navbar-form navbar-left">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form> -->
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="mywebsite1.html">Home</a></li>
+               <!--  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                    </ul>
+                </li> -->
+              </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+
+  <div class="brainteasers">
+    
+   <h2>
+
+   <!-- Brain Teasers!  -->
+
+   </h2>
+
+   <h3>
+     Brainteasers!
+
+   </h3>
+   <br>
+    <li>
+      Burning Rope
+
+
+    </li>
+    <br>
+
+    <p>You have two ropes and a lighter. Each rope has the following property: If you light one end of the rope, it will take exactly one hour to burn to the other end. They don't necessarily burn at a uniform rate, and each rope does not necessarily burn at the same rate as the other. How can you measure a period of 45 minutes?</p>
+
+    <div class="solution-divs">
+      
+     <a class="hover-font" href="javascript:showhide1('uniquename1')">
+        Show/Hide Solution
+      </a>
+    
+      
+
+    </div>
+
+    <div class="solution-text2">
+    <div id="uniquename1" style="display:none;">
+        <p>Take one rope and burn it at both ends. At the same time, burn one end of the other rope. When the first rope finishes burning (ie. 30 minutes), light the other end of the remaining rope (half of the remaining 30 minutes gives you 15 minutes).  When it burns out, that`s 45 minutes.</p>
+      
+      </div>
+
+      </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+     <li>
+      Lockers
+
+
+    </li>
+    <br>
+    <div class="brainteaser-text">
+    <p>Suppose you're in a hallway lined with 100 closed lockers. You begin by opening every locker. Then you close every second locker. Then you go to every third locker and open it (if it's closed) or close it (if it's open). Let's call this action toggling a locker. Continue toggling every nth locker on pass number n. After 100 passes, where you toggle only locker #100, how many lockers are open?</p>  
+    </div>
+
+    <div class="solution-divs">
+     <br>
+     <br>
+     <br>
+     <a class="hover-font" href="javascript:showhide2('uniquename2')">
+        Show/Hide Solution
+      </a>
+    
+      
+
+
+    </div>
+    <div class="solution-text2">
+      <div id="uniquename2" style="display:none;">
+        <p>10 lockers are left open: Lockers #1, 4, 9, 16, 25, 36, 49, 64, 81, and 100. Each of these numbers are perfect squares. This problem is based on the factors of the locker number. Each locker is toggled by each factor; for example, locker #40 is toggled on pass number 1, 2, 4, 5, 8, 10, 20, and 40. That's eight toggles: open-closed-open-closed-open-closed-open-closed.  The only way a locker could be left open is if it is toggled an odd number of times. The only numbers with an odd number of factors are the perfect squares. Thus, the perfect squares are left open. For example, locker #25 is toggled on pass number 1, 5, and 25 (three toggles): open-closed-open.</p>
+      </div>
+      </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+     <li>
+      Squares
+
+
+    </li>
+    <br>
+
+    <p>In the below image, move only 2 matchsticks to form 4 squares equal in size.</p>
+  
+
+    
+    
+    <div class="solution-divs">
+      
+     <a class="hover-font solution-text" href="javascript:showhide3('uniquename3')">
+        Show/Hide Solution
+      </a>
+    </div>
+
+    <div id="matchpic">
+      <img src="img/match1.png"  width="300">
+
+    </div>
+
+    <div id="uniquename3" style="display:none;">
+
+        <div id="solutionpic">
+        <img src="img/match2.png"  width="300">
+        </div>
+      </div>
+  
+  </div>
+
+    
+
+
+  </div><!-- /.container --> 
+
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+  <script type="text/javascript" src="js/js.js"></script>
+</body>
+</html>
